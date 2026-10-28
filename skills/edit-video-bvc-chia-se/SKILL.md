@@ -5,8 +5,6 @@ description: PHỦ CHỮ & HIỆU ỨNG VIDEO CHIA SẺ — phủ sub, tiêu đ�
 
 # Skill: Phủ chữ & Hiệu ứng Video chia sẻ
 
-*Phát triển bởi Bùi Viết Cường · Nền tảng gốc: Hồ Mạnh Thắng (kênh HMT)*
-
 Skill **chỉ phủ lớp chữ + minh họa + hiệu ứng + âm thanh** lên video đã dựng. Không cắt, không ghép, không đổi thứ tự. Hiệu ứng duy nhất đụng vào hình là **zoom punch** (phóng nhẹ 5–10% lúc chữ nhấn đập vào).
 
 Engine: `scripts/sm_overlay.py` (Python + ffmpeg/libass; font Montserrat trong `fonts/`). Gọi bằng đường dẫn tuyệt đối.

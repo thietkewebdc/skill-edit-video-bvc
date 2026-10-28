@@ -1,9 +1,7 @@
-Bộ skill edit video "edit-video-bvc" — Thiết Kế Web DC · Phát triển bởi Bùi Viết Cường
-Dựa trên nền tảng bộ skill chuyên gia (HMT) của Hồ Mạnh Thắng; quyền của tác giả gốc được giữ nguyên.
+Bộ skill "edit-video-bvc" — Thiết Kế Web DC · Bùi Viết Cường (dựa trên nền tảng HMT của Hồ Mạnh Thắng).
 
-1. Được dùng MIỄN PHÍ để làm video cho bản thân, khách hàng và doanh nghiệp của bạn.
-2. KHÔNG bán lại hoặc đóng gói bán như sản phẩm của bạn. Khi chia sẻ lại phải giữ nguyên toàn bộ ghi công (Bùi Viết Cường · Hồ Mạnh Thắng) và giấy phép này.
-3. Font Montserrat, Inter, Playfair Display theo giấy phép SIL Open Font License 1.1 (xem thư mục fonts/ của từng skill).
-4. Mô hình tách người RVM (rvm_mobilenetv3_fp32.onnx, giấy phép GPL-3.0 của tác giả PeterL1n) KHÔNG đi kèm; script tự hướng dẫn tải từ nguồn chính thức khi dùng chế độ chữ chìm sau người.
-5. Nếu bạn là tác giả gốc và muốn gỡ hoặc sửa ghi công, hãy mở Issue hoặc liên hệ Thiết Kế Web DC, repo sẽ được cập nhật ngay.
-6. Phần mềm cung cấp "nguyên trạng", không bảo hành.
+1. Dùng miễn phí cho video của bạn, khách hàng và doanh nghiệp bạn.
+2. Không bán lại hoặc đóng gói bán như sản phẩm của bạn; khi chia sẻ lại giữ nguyên ghi công và giấy phép này.
+3. Font Montserrat, Inter, Playfair Display theo SIL OFL 1.1 (thư mục fonts/).
+4. Mô hình RVM (GPL-3.0) không đi kèm, tải từ nguồn chính thức.
+5. Cung cấp "nguyên trạng", không bảo hành.

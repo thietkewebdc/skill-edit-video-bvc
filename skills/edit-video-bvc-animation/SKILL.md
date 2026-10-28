@@ -5,8 +5,6 @@ description: Tạo VIDEO ANIMATION ĐỒ HỌA PHẲNG (motion graphics, không 
 
 # Skill: VIDEO ANIMATION ĐỒ HỌA PHẲNG từ voice over
 
-*Phát triển bởi Bùi Viết Cường · Nền tảng gốc: Hồ Mạnh Thắng (kênh HMT)*
-
 Người dùng đưa **voice over** (mp3/wav/m4a, hoặc video lấy tiếng) → skill ra **video animation hoàn chỉnh**. Không có người, không logo, không chữ "bản test".
 
 Engine: `scripts/anim.py` (CLI) + `runtime/engine.js` (hình vẽ bằng HTML/CSS, Chrome headless chụp từng khung → ffmpeg NVENC). Font Inter trong `fonts/`, emoji dùng font màu của máy (Segoe UI Emoji).

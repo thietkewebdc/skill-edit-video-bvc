@@ -5,8 +5,6 @@ description: Phủ SUB KIỂU EDITORIAL (tạp chí sang trọng) lên video nó
 
 # Skill: Sub kiểu EDITORIAL (tạp chí)
 
-*Phát triển bởi Bùi Viết Cường · Nền tảng gốc: Hồ Mạnh Thắng (kênh HMT)*
-
 Skill chỉ phủ **lớp chữ + đồ họa nhẹ + SFX** lên video đã dựng. Không cắt, không zoom hình.
 Engine: `scripts/ed_overlay.py` (Python + ffmpeg/libass), font trong `fonts/`, tách người `scripts/text3d/matte.py`, soát mặt `scripts/face_qa.py`.
 Gọi script bằng **đường dẫn tuyệt đối**.

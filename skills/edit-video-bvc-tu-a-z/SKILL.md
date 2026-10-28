@@ -5,8 +5,6 @@ description: Edit video TỪ A–Z theo phong cách chữ khối vàng/xanh — 
 
 # Skill: Edit từ A đến Z (cắt ghép + phủ chữ khối vàng/xanh)
 
-*Phát triển bởi Bùi Viết Cường · Nền tảng gốc: Hồ Mạnh Thắng (kênh HMT)*
-
 Ba giai đoạn (A cắt ghép, B phủ chữ, C ảnh bìa), chạy nối tiếp trên cùng thư mục làm việc `<tên video>__edit/` cạnh video:
 
 - **A. Cắt ghép** — `scripts/cut_edit.py`: bỏ phần thừa, nối mối cắt 0.2s, zoom xen kẽ 100% / 150%, căn khung theo mặt nhân vật (OpenCV), xuất `cut_16x9.mp4` + `cut_9x16.mp4` + `words.json` đã dời mốc.

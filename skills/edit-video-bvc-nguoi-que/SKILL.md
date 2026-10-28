@@ -5,8 +5,6 @@ description: Tạo VIDEO HOẠT HÌNH NGƯỜI QUE NÉT CHÌ trên giấy sepia 
 
 # Skill: Hoạt hình NGƯỜI QUE NÉT CHÌ từ voice over
 
-*Phát triển bởi Bùi Viết Cường · Nền tảng gốc: Hồ Mạnh Thắng (kênh HMT)*
-
 Người dùng đưa **voice over** → skill ra **video hoàn chỉnh** (hình + voice). Hình do code vẽ (skia), không dùng AI tạo ảnh, không chữ ký, không nhạc (trừ khi người dùng yêu cầu).
 
 Engine: `scripts/stick.py` (CLI) + `scripts/stickdraw.py` (thư viện vẽ). Gọi bằng **đường dẫn tuyệt đối**:
