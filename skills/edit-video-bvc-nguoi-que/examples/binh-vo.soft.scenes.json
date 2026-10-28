@@ -1,0 +1,40 @@
+{
+ "size": [1920, 1080], "fps": 30, "anim_fps": 30, "boil_fps": 0, "rough": 0.45, "seed": 3,
+ "cast": {
+  "a": {"kind": "man", "style": "soft", "h": 0.6},
+  "b": {"kind": "man", "style": "soft", "h": 0.66, "hair": "tuft"},
+  "c": {"kind": "man", "style": "soft", "h": 0.66, "hair": "wisps"},
+  "d": {"kind": "man", "style": "soft", "h": 0.56},
+  "e": {"kind": "man", "style": "soft", "h": 0.58}
+ },
+ "scenes": [
+  {"i": 1, "start": 0, "end": 8, "text": "5 người đi vào, cúi/quỳ nhặt bình vỡ, đứng dậy cười",
+   "bg": {"type": "studio", "horizon": 0.6}, "tone": "warm",
+   "cam": {"from": [1.0, 0.5, 0.52], "to": [1.12, 0.47, 0.58]},
+   "items": [
+    {"id": "b", "x": -0.12, "y": 0.8, "face": 1, "expr": "smile", "do": ["walk", "breathe"],
+     "keys": [{"t": 0.1, "x": 0.4, "d": 2.5}, {"t": 2.6, "pose": "clasp", "face": 0.25, "d": 0.6},
+              {"t": 3.2, "pose": "peek", "d": 0.9}, {"t": 5.6, "pose": "clasp", "face": 0.15, "d": 0.8}, {"t": 6.3, "expr": "joy"}]},
+    {"id": "c", "x": 1.1, "y": 0.8, "face": -1, "expr": "smile", "do": ["walk", "breathe"],
+     "keys": [{"t": 0.0, "x": 0.54, "d": 2.6}, {"t": 2.7, "pose": "clasp", "face": -0.2, "d": 0.6},
+              {"t": 3.4, "pose": "peek", "d": 0.9}, {"t": 5.7, "pose": "clasp", "face": -0.1, "d": 0.8}, {"t": 6.4, "expr": "joy"}]},
+    {"type": "prop", "name": "pot", "x": 0.385, "y": 0.87, "s": 0.26, "broken": 0.3},
+    {"type": "prop", "name": "shards", "x": 0.52, "y": 0.88, "s": 0.32, "n": 14, "spread": 1.1},
+    {"id": "a", "x": -0.08, "y": 0.87, "face": 1, "expr": "smile", "do": ["walk", "breathe"],
+     "reach": {"arm": "R", "to": [0.38, 0.66]}, "reach_w": 0,
+     "keys": [{"t": 0.2, "x": 0.27, "d": 2.3}, {"t": 2.6, "pose": "bend", "face": 0.7, "d": 0.8},
+              {"t": 2.8, "reach_w": 1, "d": 1.0}, {"t": 5.2, "reach_w": 0, "d": 0.8},
+              {"t": 5.4, "pose": "stand", "face": 0.5, "d": 0.9}, {"t": 6.2, "expr": "joy", "face": 0.3}]},
+    {"id": "d", "x": 1.15, "y": 0.86, "face": -1, "expr": "smile", "do": ["walk", "breathe"],
+     "reach": {"arm": "L", "to": [0.6, 0.86]}, "reach_w": 0,
+     "keys": [{"t": 0.2, "x": 0.66, "d": 2.4}, {"t": 2.7, "pose": "bend", "face": -0.7, "d": 0.8},
+              {"t": 2.9, "reach_w": 1, "d": 1.0}, {"t": 5.4, "reach_w": 0, "d": 0.8},
+              {"t": 5.6, "pose": "stand", "face": -0.4, "d": 0.9}, {"t": 6.3, "expr": "joy"}]},
+    {"id": "e", "x": 1.22, "y": 0.9, "face": -1, "expr": "smile", "do": ["walk", "breathe"],
+     "reach": {"arm": "L", "to": [0.71, 0.88]}, "reach_w": 0,
+     "keys": [{"t": 0.3, "x": 0.8, "d": 2.5}, {"t": 2.8, "pose": "kneel", "face": -0.6, "d": 0.8},
+              {"t": 3.0, "reach_w": 1, "d": 1.0}, {"t": 5.5, "reach_w": 0, "d": 0.8},
+              {"t": 5.7, "pose": "stand", "face": -0.3, "d": 0.9}, {"t": 6.4, "expr": "joy"}]}
+   ]}
+ ]
+}

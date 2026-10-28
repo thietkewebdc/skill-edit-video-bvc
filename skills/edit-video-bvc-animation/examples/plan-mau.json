@@ -1,0 +1,928 @@
+{
+ "audio": "voice.mp3",
+ "words": "words.json",
+ "size": [
+  1080,
+  1920
+ ],
+ "fps": 30,
+ "intro_label": "Mở đầu",
+ "scenes": [
+  {
+   "bg": "dark",
+   "text": "Tôi *không lười.*",
+   "size": "xl"
+  },
+  {
+   "bg": "red",
+   "say": "tôi chỉ tiêu sải",
+   "text": "Tôi chỉ *tiêu xài quá sớm*\ncuộc đời của mình."
+  },
+  {
+   "bg": "yellow",
+   "say": "Có một giai đoạn",
+   "items": [
+    {
+     "type": "timer",
+     "from": "00:00",
+     "to": "07:12",
+     "ring": [
+      0.02,
+      0.3
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Không làm nổi việc gì\nquá *30 phút*",
+     "say": "không thể làm được một việc gì quá 30 phút"
+    }
+   ]
+  },
+  {
+   "bg": "dark",
+   "say": "Ngồi trước máy tính",
+   "valign": "top",
+   "items": [
+    {
+     "type": "text",
+     "text": "Tay *tự động* với lấy điện thoại",
+     "say": "tay tôi tự động với lấy"
+    },
+    {
+     "type": "spacer",
+     "h": 80
+    },
+    {
+     "type": "row",
+     "shelf": true,
+     "gap": 30,
+     "items": [
+      {
+       "e": "💻",
+       "size": 230
+      },
+      {
+       "e": "🤏",
+       "size": 110,
+       "say": "với lấy",
+       "move": {
+        "to": [
+         70,
+         -20
+        ],
+        "say": "cái điện thoại",
+        "dur": 0.5
+       }
+      },
+      {
+       "e": "📱",
+       "size": 130,
+       "idle": "wobble",
+       "say": "cái điện thoại"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "mint",
+   "say": "Thì trong người",
+   "items": [
+    {
+     "type": "text",
+     "text": "*Bứt rứt*",
+     "say": "bất giấc",
+     "size": "l",
+     "underline": false,
+     "acc": "#E8B730"
+    },
+    {
+     "type": "text",
+     "text": "Khó chịu",
+     "say": "khó chịu",
+     "size": "l"
+    },
+    {
+     "type": "text",
+     "text": "*Muốn thoát ra*",
+     "say": "phải thoát ra",
+     "size": "l",
+     "underline": false,
+     "acc": "#E8B730"
+    },
+    {
+     "e": "😣",
+     "size": 180,
+     "idle": "shake"
+    }
+   ]
+  },
+  {
+   "bg": "red",
+   "say": "Nên mở tiktok",
+   "items": [
+    {
+     "type": "text",
+     "text": "“Xem *một chút* thôi”",
+     "say": "xem một chút thôi"
+    },
+    {
+     "type": "phone",
+     "feed": [
+      {
+       "e": "😂",
+       "cap": "Clip hài phần 12"
+      },
+      {
+       "e": "🐶",
+       "cap": "Chó mèo cute",
+       "bg": "#2F6B45"
+      },
+      {
+       "e": "💃",
+       "cap": "Trend mới",
+       "bg": "#1E3A28"
+      },
+      {
+       "e": "🍜",
+       "cap": "Mukbang",
+       "bg": "#C8452F"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "cream",
+   "say": "Rồi khi ngẩn lên",
+   "items": [
+    {
+     "type": "usage",
+     "to": 43,
+     "unit": "phút",
+     "note": "đã trôi qua lúc nào không hay",
+     "run": {
+      "say": "43 phút"
+     },
+     "rows": [
+      {
+       "label": "TikTok",
+       "v": "26p",
+       "fill": 0.92
+      },
+      {
+       "label": "Facebook",
+       "v": "17p",
+       "fill": 0.6
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "dark",
+   "say": "Tôi không cần ai nhắc",
+   "text": "Tôi không cần ai nhắc.\nTôi biết mình *có vấn đề.*"
+  },
+  {
+   "bg": "green",
+   "say": "Tôi từng làm việc",
+   "items": [
+    {
+     "type": "text",
+     "text": "Tôi từng…",
+     "say": "Tôi từng làm",
+     "size": "m"
+    },
+    {
+     "type": "list",
+     "items": [
+      {
+       "t": "Làm việc cường độ cao",
+       "say": "cường độ cao"
+      },
+      {
+       "t": "Chạy nhiều dự án",
+       "say": "chạy dự án"
+      },
+      {
+       "t": "Đi nhiều nơi",
+       "say": "đi nhiều nơi"
+      },
+      {
+       "t": "Làm ra sản phẩm bùng nổ",
+       "say": "sản phẩm mới bùng nổ"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "yellow",
+   "say": "Nhưng cả về sau",
+   "items": [
+    {
+     "type": "text",
+     "text": "Mất dần khả năng\n*ngồi yên*",
+     "say": "tôi cả mất khả năng ngồi yên"
+    },
+    {
+     "e": "🧠",
+     "size": 150
+    },
+    {
+     "type": "battery",
+     "from": 100,
+     "to": 14,
+     "drain": {
+      "say": "mất khả năng"
+     },
+     "dur": 1.6
+    }
+   ]
+  },
+  {
+   "bg": "cream",
+   "say": "Lúc đó, cách giải thích",
+   "items": [
+    {
+     "e": "🦥",
+     "size": 200,
+     "disc": "yellow"
+    },
+    {
+     "type": "text",
+     "text": "“Chắc mình\n*lười thật rồi.*”",
+     "say": "chắc mình lời thật rồi",
+     "size": "l"
+    }
+   ]
+  },
+  {
+   "bg": "green",
+   "say": "Chỉ đến khi",
+   "text": "Vấn đề *không\nnằm* ở sự lười biếng.",
+   "textSay": "vấn đề không nằm ở sự lời biếu",
+   "size": "l"
+  },
+  {
+   "bg": "yellow",
+   "say": "Vấn đề nằm ở chỗ",
+   "items": [
+    {
+     "type": "quote",
+     "text": "Tôi đã *tiêu xài quá sớm* những trải nghiệm đáng ra phải đến sau.",
+     "say": "tôi đã tiêu sải quá sớm những trải nghiệm",
+     "by": "Điều tôi hiểu ra",
+     "size": 76
+    }
+   ]
+  },
+  {
+   "bg": "dark",
+   "say": "Khiến cảm xúc",
+   "valign": "top",
+   "items": [
+    {
+     "type": "text",
+     "text": "Cảm xúc bị bào mòn\ntrước khi *kịp chín*",
+     "say": "cảm xúc bị bào mòn trước khi kịp chí"
+    },
+    {
+     "type": "plant",
+     "e": "🌷",
+     "swap": [
+      {
+       "e": "🥀",
+       "say": "bào mòn"
+      }
+     ],
+     "mt": 40
+    }
+   ]
+  },
+  {
+   "bg": "red",
+   "say": "Hồi nhỏ",
+   "items": [
+    {
+     "type": "chapter",
+     "num": "01",
+     "title": "Mọi thứ đến\n*quá sớm*",
+     "at": 0.1
+    }
+   ]
+  },
+  {
+   "bg": "cream",
+   "say": "Tên mừng tuổi",
+   "items": [
+    {
+     "type": "text",
+     "text": "“Bố mẹ *giữ hộ* nhé”",
+     "say": "mừng tuổi sẽ được giữ hộ"
+    },
+    {
+     "e": "🧧",
+     "size": 260,
+     "swap": [
+      {
+       "e": "🔒",
+       "say": "cho đến khi lớn"
+      }
+     ]
+    },
+    {
+     "type": "pill",
+     "t": "Giữ đến khi lớn",
+     "bg": "red",
+     "say": "cho đến khi lớn"
+    }
+   ]
+  },
+  {
+   "bg": "dark",
+   "say": "Nghe thì có vẻ vô lý",
+   "items": [
+    {
+     "type": "text",
+     "text": "Nghe vô lý, nhưng gieo vào tôi\nmột cảm giác *rất đặc biệt.*",
+     "say": "Nghe thì có vẻ vô lý"
+    }
+   ]
+  },
+  {
+   "bg": "yellow",
+   "say": "Sẽ có những thứ",
+   "items": [
+    {
+     "e": "⏳",
+     "size": 170,
+     "disc": "cream"
+    },
+    {
+     "type": "text",
+     "text": "Có những thứ\nphải *chờ*, phải *đủ tuổi*",
+     "say": "những thứ phải chờ, phải đủ tuổi"
+    }
+   ]
+  },
+  {
+   "bg": "cream",
+   "say": "Ngày xưa, muốn chơi game",
+   "items": [
+    {
+     "type": "polaroid",
+     "e": "🕹️",
+     "cap": "Ngày xưa"
+    },
+    {
+     "type": "text",
+     "text": "Chơi game phải ra quán",
+     "say": "chơi game phải ra quán"
+    }
+   ]
+  },
+  {
+   "bg": "green",
+   "say": "Muốn xem phim phải thuê đĩa",
+   "items": [
+    {
+     "type": "polaroid",
+     "e": "📼",
+     "cap": "Ngày xưa",
+     "rot": 3
+    },
+    {
+     "type": "text",
+     "text": "Xem phim\nphải thuê đĩa"
+    }
+   ]
+  },
+  {
+   "bg": "yellow",
+   "say": "Muốn đi xa phải đợi lớn",
+   "items": [
+    {
+     "type": "text",
+     "text": "Muốn đi xa phải đợi",
+     "size": "m"
+    },
+    {
+     "type": "list",
+     "icon": "⏳",
+     "items": [
+      {
+       "t": "Đợi lớn",
+       "say": "đợi lớn"
+      },
+      {
+       "t": "Đợi có tiền",
+       "say": "đợi có tiền"
+      },
+      {
+       "t": "Đợi có thời gian",
+       "say": "đợi có thời gian"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "dark",
+   "say": "Còn bây giờ",
+   "valign": "top",
+   "items": [
+    {
+     "type": "text",
+     "text": "Bây giờ: *một nút nhấn*",
+     "say": "bây giờ gần như mọi thứ đều đến ngay lập tức"
+    },
+    {
+     "type": "radial",
+     "burst": {
+      "say": "đến ngay lập tức"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "mint",
+   "say": "Chúng ta có cảm giác chiến thắng",
+   "deco": [
+    "circles",
+    "lines"
+   ],
+   "items": [
+    {
+     "type": "text",
+     "text": "Chiến thắng",
+     "say": "chiến thắng",
+     "size": "l"
+    },
+    {
+     "type": "pill",
+     "t": "⚡ RẤT NHANH",
+     "say": "rất nhanh"
+    }
+   ]
+  },
+  {
+   "bg": "red",
+   "say": "Có sự kích thích",
+   "deco": [
+    "circles",
+    "lines"
+   ],
+   "items": [
+    {
+     "type": "text",
+     "text": "Kích thích",
+     "size": "l"
+    },
+    {
+     "type": "text",
+     "text": "Trốn tránh",
+     "say": "phốn tránh",
+     "size": "l"
+    },
+    {
+     "type": "pill",
+     "t": "⚡ RẤT NHANH",
+     "bg": "crimson",
+     "say": "phốn tránh rất nhanh"
+    }
+   ]
+  },
+  {
+   "bg": "cream",
+   "say": "Tôi gặp không ít người",
+   "items": [
+    {
+     "type": "vs",
+     "top": {
+      "cap": "Tuổi thật",
+      "e": "🧑",
+      "t": "Mới ngoài 20",
+      "bg": "white"
+     },
+     "bottom": {
+      "cap": "Giọng điệu",
+      "e": "👴",
+      "t": "Nói như ông cụ 80",
+      "bg": "cream",
+      "say": "ông cụ 80"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "dark",
+   "say": "Trên thông thiên văn",
+   "text": "“Trên thông thiên văn,\ndưới tường *địa lý*”",
+   "textSay": "Trên thông thiên văn dưới tượng kỷ lý"
+  },
+  {
+   "bg": "green",
+   "say": "Họ không thiếu thông tin",
+   "text": "Họ *không thiếu*\nthông tin."
+  },
+  {
+   "bg": "yellow",
+   "say": "Mà thiếu những",
+   "text": "Họ thiếu thứ cần\n*thời gian lắng xuống.*",
+   "textSay": "Mà thiếu những thứ cần thời gian lăng xuống"
+  },
+  {
+   "bg": "cream",
+   "say": "Cũng giống như việc xem phim",
+   "items": [
+    {
+     "type": "text",
+     "text": "Bản mờ, nát, *đầy spoiler*",
+     "say": "bản mờ nát và đây spoiler"
+    },
+    {
+     "type": "screen",
+     "badge": "240p",
+     "blur": 5,
+     "stamps": [
+      {
+       "t": "SPOILER",
+       "say": "spoiler"
+      },
+      {
+       "t": "SPOILER",
+       "at": 3.4
+      },
+      {
+       "t": "SPOILER",
+       "at": 3.7
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "green",
+   "say": "Thì đến lúc xem lại",
+   "items": [
+    {
+     "type": "text",
+     "text": "Xem bản 4K: *hết mong chờ*",
+     "say": "xem bản 4K trên Netflix ta không còn cảm giác mong chờ"
+    },
+    {
+     "type": "screen",
+     "badge": "4K"
+    },
+    {
+     "e": "😐",
+     "size": 130,
+     "say": "không còn cảm giác"
+    }
+   ]
+  },
+  {
+   "bg": "red",
+   "say": "Có một sự thật",
+   "items": [
+    {
+     "type": "chapter",
+     "num": "02",
+     "title": "Sự chú ý\nbị *chia nhỏ*"
+    }
+   ]
+  },
+  {
+   "bg": "cream",
+   "say": "Sự chú ý của tôi",
+   "items": [
+    {
+     "type": "text",
+     "text": "Sự chú ý bị *chia nhỏ* quá lâu",
+     "say": "sự chú ý của tôi đã bị chia nhỏ quá lâu"
+    },
+    {
+     "type": "grid",
+     "label": "SỰ CHÚ Ý",
+     "break": {
+      "say": "chia nhỏ"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "green",
+   "say": "Check thông báo",
+   "items": [
+    {
+     "type": "ghost",
+     "t": "23:47",
+     "y": 0.1
+    },
+    {
+     "type": "notify",
+     "items": [
+      {
+       "e": "💬",
+       "t": "3 tin nhắn mới",
+       "sub": "vừa xong"
+      },
+      {
+       "e": "❤️",
+       "t": "Ai đó thích video của bạn",
+       "sub": "1 phút",
+       "say": "có thêm view"
+      },
+      {
+       "e": "🔔",
+       "t": "Bạn bè vừa đăng story",
+       "sub": "2 phút",
+       "say": "comment nào không"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "yellow",
+   "say": "Nhìn những cuộc đời hoàn hảo",
+   "items": [
+    {
+     "type": "text",
+     "text": "Những cuộc đời *hoàn hảo*"
+    },
+    {
+     "type": "phone",
+     "w": 360,
+     "hand": false,
+     "feed": [
+      {
+       "e": "🏖️",
+       "cap": "Du lịch Maldives",
+       "bg": "#2F6B45"
+      },
+      {
+       "e": "💍",
+       "cap": "Cầu hôn",
+       "bg": "#C8452F"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "cream",
+   "say": "Não của tôi quen",
+   "items": [
+    {
+     "type": "vs",
+     "top": {
+      "cap": "Não đã quen",
+      "e": "⚡",
+      "t": "Nhanh, ngắn",
+      "bg": "white"
+     },
+     "bottom": {
+      "cap": "Thành khó chịu",
+      "e": "📖",
+      "t": "Chậm, sâu",
+      "bg": "cream",
+      "say": "những thứ chậm"
+     }
+    }
+   ]
+  },
+  {
+   "bg": "sunset",
+   "say": "Ngồi một mình trên bàn công",
+   "items": [
+    {
+     "type": "pill",
+     "t": "≈ 1 tiếng",
+     "bg": "dark",
+     "say": "gần một tiếng"
+    },
+    {
+     "type": "list",
+     "style": "light",
+     "icon": "☕",
+     "items": [
+      {
+       "t": "Ngồi ban công, không làm gì"
+      }
+     ]
+    },
+    {
+     "type": "spacer",
+     "h": 420
+    },
+    {
+     "e": "☕",
+     "size": 150,
+     "idle": "float"
+    }
+   ]
+  },
+  {
+   "bg": "cream",
+   "say": "Mình cũng không có quá nhiều người",
+   "items": [
+    {
+     "type": "chat",
+     "title": "Danh bạ",
+     "msgs": [
+      {
+       "t": "…"
+      },
+      {
+       "t": "Dạo này sao rồi?",
+       "me": true,
+       "say": "người để nói chuyện"
+      },
+      {
+       "t": "Đã xem",
+       "at": 2.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "dark",
+   "say": "Và rồi vòng lập",
+   "items": [
+    {
+     "type": "text",
+     "text": "Vòng lặp *cứ thế tiếp tục*"
+    },
+    {
+     "type": "cycle",
+     "nodes": [
+      "Áp lực",
+      "Lướt",
+      "Nhẹ đầu",
+      "Rỗng hơn"
+     ],
+     "center": "🔄"
+    }
+   ]
+  },
+  {
+   "bg": "cream",
+   "say": "Sau vài tuần",
+   "items": [
+    {
+     "type": "timeline",
+     "steps": [
+      {
+       "when": "Vài tuần",
+       "t": "Ngồi yên được lâu hơn"
+      },
+      {
+       "when": "Vài tháng",
+       "t": "Đọc lại bài dài, rồi đọc lại sách",
+       "say": "sau vài tháng"
+      },
+      {
+       "when": "Quan trọng hơn",
+       "t": "Nghe lại suy nghĩ của chính mình",
+       "say": "quan trọng hơn"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "dark",
+   "say": "Muốn khỏe lại",
+   "items": [
+    {
+     "type": "text",
+     "text": "Không thể *gồng lên đột ngột*",
+     "say": "không thể nào bằng cách gồng lên đột ngột"
+    },
+    {
+     "type": "chart",
+     "xl": "Từng chút",
+     "xr": "Tự tới"
+    }
+   ]
+  },
+  {
+   "bg": "green",
+   "say": "Khi rời Hà Nội",
+   "items": [
+    {
+     "type": "map",
+     "from": "Hà Nội",
+     "tags": [
+      {
+       "t": "⚡ Nhịp nhanh",
+       "pos": 0.25
+      },
+      {
+       "t": "🐢 Chậm lại",
+       "say": "chậm lại",
+       "pos": 0.7
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "green",
+   "say": "Làm chậm lại không phải",
+   "items": [
+    {
+     "type": "neq",
+     "items": [
+      {
+       "a": "Làm chậm lại",
+       "b": "thụt lùi"
+      },
+      {
+       "a": "Buồn chán",
+       "b": "thất bại",
+       "say": "Buồn chán"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "bg": "dark",
+   "say": "Cầm giấy lên viết",
+   "items": [
+    {
+     "type": "text",
+     "text": "Viết một cái gì đó.\n*Thế là đủ để bắt đầu.*",
+     "say": "cầm giấy lên viết một cái gì đó nó thấy là đủ để bắt đầu"
+    },
+    {
+     "type": "notebook"
+    }
+   ]
+  },
+  {
+   "bg": "green",
+   "say": "thời gian sử dụng điện thoại",
+   "items": [
+    {
+     "type": "usage",
+     "to": 2,
+     "unit": "tiếng",
+     "suffix": "+",
+     "note": "Hôm qua của bạn là bao nhiêu?",
+     "color": "yellow",
+     "rows": [
+      {
+       "label": "TikTok",
+       "v": "70p",
+       "fill": 0.95,
+       "color": "red"
+      },
+      {
+       "label": "Facebook",
+       "v": "38p",
+       "fill": 0.55,
+       "color": "red"
+      },
+      {
+       "label": "YouTube",
+       "v": "22p",
+       "fill": 0.3,
+       "color": "red"
+      }
+     ]
+    },
+    {
+     "e": "❓",
+     "size": 140
+    }
+   ]
+  },
+  {
+   "bg": "red",
+   "say": "Nếu nó hơn 2 tiếng",
+   "items": [
+    {
+     "type": "text",
+     "text": "Hơn 2 tiếng?\nCó lẽ *quá nhiều rồi đó.*",
+     "size": "l"
+    },
+    {
+     "type": "confetti",
+     "say": "quá nhiều"
+    }
+   ]
+  }
+ ],
+ "chapters": [
+  {
+   "say": "Tôi không viết những dòng này",
+   "label": "Kết"
+  }
+ ]
+}

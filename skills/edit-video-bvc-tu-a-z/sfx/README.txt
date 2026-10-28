@@ -1,0 +1,1 @@
+﻿Tha file WAV 16-bit vao day de thay am thanh tao bang code. Ten file = ten SFX: whoosh.wav, whoosh_soft.wav, swish.wav, impact.wav, impact_soft.wav, riser.wav, sparkle.wav, pop.wav, tick.wav, chime.wav, shimmer.wav

@@ -1,0 +1,45 @@
+{
+  "words_file": "words.json",
+  "mask": "mask.mp4",
+  "moments": [
+    {"style": "serif_hook", "start": 0.0, "end": 1.72, "lines": ["Let me"]},
+    {"style": "thin_bold", "start": 0.58, "end": 1.62, "lines": ["be the first", "to say,"]},
+    {"style": "caps_title", "start": 1.74, "end": 3.35, "lines": ["Your property"]},
+    {"style": "serif_pair", "start": 2.34, "end": 3.3, "lines": ["deserves the", "investment"]},
+    {"style": "thin_caps", "start": 3.36, "end": 4.9, "y": 0.33, "behind": true, "lines": ["from your"],
+     "sfx": []},
+    {"style": "thin_caps", "start": 3.86, "end": 4.9, "lines": ["real estate", "agent."]},
+
+    {"style": "caps_italic", "start": 9.48, "end": 10.72, "lines": [{"text": "is", "w": 0.08, "dx": -0.27, "color": "white"}, "transparency."]},
+    {"type": "flash", "t": 10.78},
+    {"style": "neon", "start": 11.28, "end": 13.0, "lines": ["top 1%"]},
+    {"style": "strike", "start": 13.02, "end": 14.95, "lines": ["is not"]},
+    {"style": "gradient_serif", "start": 13.58, "end": 14.95, "lines": ["something", "I take lightly."]},
+
+    {"style": "thin_silver", "start": 17.72, "end": 19.3, "lines": ["and that", "investment"]},
+    {"style": "serif_italic", "start": 18.52, "end": 19.38, "lines": ["goes far beyond,"]},
+    {"style": "thin_caps", "start": 19.4, "end": 20.6, "lines": ["what you", "can see."]},
+
+    {"type": "scatter", "start": 23.44, "end": 25.4, "items": [
+      {"text": "retargeting", "t": 23.44, "x": 0.30, "y": 0.44},
+      {"text": "ads,", "t": 23.96, "x": 0.20, "y": 0.49},
+      {"text": "and", "t": 24.34, "x": 0.76, "y": 0.47},
+      {"text": "maximum", "t": 24.44, "x": 0.76, "y": 0.49},
+      {"text": "exposure,", "t": 24.74, "x": 0.66, "y": 0.52}]},
+    {"style": "caps_big", "start": 25.5, "end": 26.95, "lines": ["but"]},
+
+    {"style": "thin_bold", "start": 30.0, "end": 31.6, "lines": ["because",
+      {"text": "far more", "swap": [{"text": "goes", "t": 30.84}, {"text": "into", "t": 31.12}, {"text": "this,", "t": 31.36}]}]},
+    {"style": "serif_dark", "start": 31.62, "end": 32.6, "lines": ["than what's"]},
+    {"style": "serif_color", "start": 31.9, "end": 32.66, "lines": ["visible."]},
+
+    {"type": "pills", "start": 33.0, "end": 35.8, "items": [
+      {"text": "Character", "t": 33.04, "x": 0.22, "y": 0.41},
+      {"text": "Integrity", "t": 33.84, "x": 0.50, "y": 0.535},
+      {"text": "HOW", "t": 34.54, "x": 0.80, "y": 0.41}]},
+
+    {"style": "serif_top_pair", "start": 38.38, "end": 40.05, "lines": ["I would be", "honored"]},
+    {"style": "serif_top_pair", "start": 40.05, "end": 40.7, "lines": ["and serve", {"text": "you.", "w": 0.22}]},
+    {"type": "bubble", "start": 42.76, "end": 44.0, "text": "Click the link in my bio.", "avatar_text": "C"}
+  ]
+}

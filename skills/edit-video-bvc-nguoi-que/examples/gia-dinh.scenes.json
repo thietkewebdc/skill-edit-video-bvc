@@ -1,0 +1,1875 @@
+{
+ "voice": "voice.wav",
+ "words": "words.json",
+ "size": [
+  1080,
+  1920
+ ],
+ "fps": 30,
+ "anim_fps": 15,
+ "boil_fps": 6,
+ "seed": 1,
+ "title": {
+  "lines": [
+   "GIA ĐÌNH",
+   "HẠNH PHÚC NHẤT"
+  ],
+  "dur": 2.6,
+  "y": 0.36,
+  "width": 0.7
+ },
+ "cast": {
+  "dad": {
+   "kind": "man",
+   "h": 0.62
+  },
+  "mom": {
+   "kind": "woman",
+   "h": 0.58,
+   "dress": true
+  },
+  "son": {
+   "kind": "boy",
+   "h": 0.4,
+   "sweater": true
+  },
+  "girl": {
+   "kind": "girl",
+   "h": 0.36
+  },
+  "a": {
+   "kind": "man",
+   "h": 0.62
+  },
+  "b": {
+   "kind": "plain",
+   "h": 0.6,
+   "shirt": true
+  },
+  "old": {
+   "kind": "old",
+   "h": 0.64
+  }
+ },
+ "scenes": [
+  {
+   "i": 1,
+   "start": 0.0,
+   "end": 5.11,
+   "text": "Gia đình hạnh phúc nhất không phải gia đình giàu nhất, mà là gia đình không đổ lỗi khi có chuyện xảy ra.",
+   "bg": {
+    "type": "path",
+    "horizon": 0.55,
+    "road_x": 0.5
+   },
+   "tone": "neutral",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "items": [
+    {
+     "type": "prop",
+     "name": "mansion",
+     "x": 0.22,
+     "y": 0.5,
+     "s": 0.42,
+     "opacity": 0.85
+    },
+    {
+     "type": "prop",
+     "name": "house",
+     "x": 0.8,
+     "y": 0.52,
+     "s": 0.3,
+     "light": 0.8
+    },
+    {
+     "id": "dad",
+     "x": 0.5,
+     "y": 0.86,
+     "pose": "think",
+     "expr": "worried",
+     "face": 0.4,
+     "do": [
+      "breathe"
+     ],
+     "keys": [
+      {
+       "t": "không đổ lỗi",
+       "expr": "smile",
+       "face": 0.8
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "i": 2,
+   "start": 5.11,
+   "end": 12.25,
+   "text": "Một gia đình thực sự hòa thuận, chưa chắc đã giàu có, nhưng nhất định là một gia đình mà các thành viên biết nói chuyện tử tế với nhau.",
+   "bg": "hut",
+   "tone": "warm",
+   "cam": {
+    "zoom": [
+     1.02,
+     1.1
+    ]
+   },
+   "items": [
+    {
+     "type": "prop",
+     "name": "lamp",
+     "x": 0.74,
+     "y": 0.9,
+     "s": 0.12
+    },
+    {
+     "id": "dad",
+     "x": 0.38,
+     "y": 0.83,
+     "pose": "hug",
+     "expr": "happy",
+     "face": 0.4,
+     "reach": {
+      "arm": "R",
+      "to": "mom.shoulder"
+     },
+     "do": [
+      "breathe"
+     ],
+     "keys": [
+      {
+       "t": "nói chuyện",
+       "do": [
+        "talk"
+       ]
+      }
+     ]
+    },
+    {
+     "id": "mom",
+     "x": 0.6,
+     "y": 0.83,
+     "expr": "happy",
+     "face": -0.4,
+     "reach": {
+      "arm": "L",
+      "to": "dad.shoulder"
+     },
+     "do": [
+      "breathe"
+     ]
+    },
+    {
+     "id": "son",
+     "x": 0.23,
+     "y": 0.88,
+     "expr": "joy",
+     "face": 0.5,
+     "reach": {
+      "arm": "R",
+      "to": "dad.belly"
+     },
+     "do": [
+      "bounce"
+     ]
+    },
+    {
+     "id": "girl",
+     "x": 0.52,
+     "y": 0.92,
+     "expr": "joy",
+     "do": [
+      "bounce"
+     ],
+     "face": 0
+    }
+   ]
+  },
+  {
+   "i": 3,
+   "start": 12.25,
+   "end": 20.01,
+   "text": "Khi gặp sự cố, mọi người trước tiên nhìn lại bản thân mình để tìm nguyên nhân và giải pháp, chứ không phải vội vàng than trách, đổ lỗi cho người khác.",
+   "bg": "floor",
+   "tone": "warm",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.07
+    ],
+    "from": [
+     1.0,
+     0.5,
+     0.6
+    ]
+   },
+   "items": [
+    {
+     "type": "prop",
+     "name": "vase",
+     "x": 0.5,
+     "y": 0.84,
+     "s": 0.2,
+     "broken": 1
+    },
+    {
+     "id": "dad",
+     "x": 0.28,
+     "y": 0.84,
+     "pose": "crouch",
+     "expr": "worried",
+     "face": 0.7,
+     "keys": [
+      {
+       "t": "nhìn lại",
+       "expr": "calm"
+      },
+      {
+       "t": "giải pháp",
+       "expr": "smile"
+      }
+     ]
+    },
+    {
+     "id": "mom",
+     "x": 0.74,
+     "y": 0.84,
+     "pose": "crouch",
+     "expr": "worried",
+     "face": -0.7,
+     "keys": [
+      {
+       "t": "nhìn lại",
+       "expr": "calm"
+      },
+      {
+       "t": "giải pháp",
+       "expr": "smile"
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "tape",
+     "x": 0.6,
+     "y": 0.9,
+     "s": 0.06
+    }
+   ]
+  },
+  {
+   "i": 4,
+   "start": 20.01,
+   "end": 23.25,
+   "text": "Trong một gia đình như vậy, cảm xúc của mỗi người đều ổn định.",
+   "bg": {
+    "type": "field",
+    "horizon": 0.7,
+    "sun": [
+     0.78,
+     0.2,
+     0.18
+    ]
+   },
+   "tone": "golden",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "items": [
+    {
+     "id": "dad",
+     "x": 0.2,
+     "y": 0.84,
+     "expr": "happy",
+     "glow": 0.8,
+     "hold": "mom",
+     "do": [
+      "breathe"
+     ]
+    },
+    {
+     "id": "mom",
+     "x": 0.4,
+     "y": 0.84,
+     "expr": "happy",
+     "glow": 0.8,
+     "hold": [
+      "dad",
+      "son"
+     ],
+     "do": [
+      "breathe"
+     ]
+    },
+    {
+     "id": "son",
+     "x": 0.6,
+     "y": 0.86,
+     "expr": "joy",
+     "glow": 0.8,
+     "hold": [
+      "mom",
+      "girl"
+     ],
+     "do": [
+      "bounce"
+     ]
+    },
+    {
+     "id": "girl",
+     "x": 0.78,
+     "y": 0.86,
+     "expr": "joy",
+     "glow": 0.8,
+     "hold": "son",
+     "do": [
+      "bounce"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 5,
+   "start": 23.25,
+   "end": 33.51,
+   "text": "Những đứa trẻ được nuôi dưỡng trong không khí bình yên đó, tự nhiên có một nền tảng tự tin vững vàng từ bên trong, và chúng có thể dồn năng lượng đó vào công việc, vào các mối quan hệ xã hội sau này.",
+   "bg": {
+    "type": "outdoor",
+    "horizon": 0.72
+   },
+   "tone": "warm",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "fx": [
+    {
+     "name": "glow",
+     "x": 0.5,
+     "y": 0.2,
+     "r": 0.9,
+     "a": 0.4
+    }
+   ],
+   "items": [
+    {
+     "type": "prop",
+     "name": "sapling",
+     "x": 0.52,
+     "y": 0.84,
+     "s": 0.34,
+     "grow": 0.2,
+     "keys": [
+      {
+       "t": 0.3,
+       "grow": 1.0,
+       "d": 4
+      }
+     ],
+     "vanish": "công việc"
+    },
+    {
+     "id": "son",
+     "x": 0.4,
+     "y": 0.86,
+     "expr": "joy",
+     "face": 0.6,
+     "reach": {
+      "arm": "R",
+      "to": [
+       0.51,
+       0.72
+      ]
+     },
+     "vanish": "công việc"
+    },
+    {
+     "type": "prop",
+     "name": "door",
+     "x": 0.3,
+     "y": 0.84,
+     "s": 0.62,
+     "appear": "công việc"
+    },
+    {
+     "id": "son",
+     "kind": "man",
+     "sweater": false,
+     "shirt": true,
+     "h": 0.58,
+     "x": 0.44,
+     "y": 0.86,
+     "expr": "happy",
+     "face": 0.6,
+     "appear": "công việc",
+     "reach": {
+      "arm": "R",
+      "to": [
+       0.58,
+       0.64
+      ]
+     },
+     "hold_prop": {
+      "name": "briefcase",
+      "arm": "L",
+      "s": 0.1
+     }
+    },
+    {
+     "id": "b",
+     "x": 0.72,
+     "y": 0.86,
+     "expr": "smile",
+     "face": -0.6,
+     "appear": "công việc",
+     "reach": {
+      "arm": "L",
+      "to": [
+       0.59,
+       0.64
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 6,
+   "start": 33.51,
+   "end": 40.62,
+   "text": "Ngược lại, một gia đình mà mọi người ngày nào cũng đổ lỗi cho nhau, công kích nhau, chê bai nhau, và đặt ra hàng loạt yêu cầu với nhau,",
+   "bg": "paper",
+   "tone": "neutral",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.12
+    ]
+   },
+   "items": [
+    {
+     "id": "dad",
+     "x": 0.3,
+     "y": 0.74,
+     "pose": "angry_point",
+     "expr": "angry",
+     "face": 1,
+     "do": [
+      "shake",
+      "talk"
+     ],
+     "reach": {
+      "arm": "R",
+      "to": "mom.head"
+     }
+    },
+    {
+     "id": "mom",
+     "x": 0.72,
+     "y": 0.74,
+     "pose": "angry_point",
+     "expr": "angry",
+     "face": -1,
+     "do": [
+      "shake",
+      "talk"
+     ],
+     "reach": {
+      "arm": "L",
+      "to": "dad.head"
+     }
+    },
+    {
+     "id": "son",
+     "x": 0.25,
+     "y": 0.92,
+     "pose": "angry_point",
+     "expr": "angry",
+     "face": 1,
+     "do": [
+      "shake",
+      "talk"
+     ],
+     "reach": {
+      "arm": "R",
+      "to": "girl.head"
+     }
+    },
+    {
+     "id": "girl",
+     "x": 0.75,
+     "y": 0.92,
+     "pose": "angry_point",
+     "expr": "angry",
+     "face": -1,
+     "do": [
+      "shake",
+      "talk"
+     ],
+     "reach": {
+      "arm": "L",
+      "to": "son.head"
+     }
+    },
+    {
+     "type": "prop",
+     "name": "lightning",
+     "x": 0.5,
+     "y": 0.42,
+     "s": 0.16,
+     "appear": "công kích"
+    }
+   ]
+  },
+  {
+   "i": 7,
+   "start": 40.62,
+   "end": 44.19,
+   "text": "đó là một gia đình thiếu tình yêu thương, thiếu sự kết nối cảm xúc.",
+   "bg": "floor",
+   "tone": "cold",
+   "cam": {
+    "zoom": [
+     1.08,
+     1.0
+    ]
+   },
+   "items": [
+    {
+     "id": "dad",
+     "x": 0.18,
+     "y": 0.8,
+     "pose": "slump",
+     "expr": "sad",
+     "face": -0.8
+    },
+    {
+     "id": "mom",
+     "x": 0.82,
+     "y": 0.8,
+     "pose": "slump",
+     "expr": "sad",
+     "face": 0.8
+    },
+    {
+     "type": "prop",
+     "name": "heart",
+     "x": 0.5,
+     "y": 0.45,
+     "s": 0.34,
+     "broken": 0.2,
+     "dark": 0.3,
+     "keys": [
+      {
+       "t": 0.5,
+       "broken": 1,
+       "d": 2.0
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "i": 8,
+   "start": 44.19,
+   "end": 50.31,
+   "text": "Mọi thành viên trong gia đình đó, dù là cha mẹ hay con cái, đều muốn thoát ra khỏi cái không khí ngột ngạt ấy.",
+   "bg": {
+    "type": "doorway",
+    "horizon": 0.66,
+    "door_w": 0.5,
+    "door_h": 0.46
+   },
+   "tone": "dark",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "from": [
+     1,
+     0.5,
+     0.55
+    ]
+   },
+   "items": [
+    {
+     "id": "dad",
+     "x": 0.4,
+     "y": 0.66,
+     "pose": "angry_point",
+     "expr": "angry",
+     "face": 1,
+     "do": [
+      "shake",
+      "talk"
+     ],
+     "reach": {
+      "arm": "R",
+      "to": "mom.head"
+     },
+     "h": 0.3
+    },
+    {
+     "id": "mom",
+     "x": 0.6,
+     "y": 0.66,
+     "pose": "angry_point",
+     "expr": "angry",
+     "face": -1,
+     "do": [
+      "shake",
+      "talk"
+     ],
+     "reach": {
+      "arm": "L",
+      "to": "dad.head"
+     },
+     "h": 0.28
+    },
+    {
+     "id": "son",
+     "kind": "man",
+     "h": 0.62,
+     "x": 0.5,
+     "y": 0.9,
+     "expr": "sad",
+     "dark": 0.9,
+     "pose": "walk",
+     "do": [
+      "walk"
+     ],
+     "walk_in_place": true,
+     "face": 0.001
+    }
+   ]
+  },
+  {
+   "i": 9,
+   "start": 50.31,
+   "end": 57.05,
+   "text": "Nhiều người hay nói miệng độc, nhưng lòng không xấu, lấy khẩu xà, tâm phật làm cái cớ cho cách nói chuyện, cây nhiệt của mình.",
+   "bg": "paper",
+   "tone": "neutral",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "from": [
+     1.0,
+     0.5,
+     0.55
+    ]
+   },
+   "items": [
+    {
+     "id": "a",
+     "x": 0.3,
+     "y": 0.8,
+     "pose": "angry_point",
+     "expr": "shout",
+     "face": 1,
+     "do": [
+      "jab",
+      "shake"
+     ]
+    },
+    {
+     "id": "b",
+     "x": 0.72,
+     "y": 0.8,
+     "pose": "lean_back",
+     "expr": "worried",
+     "face": -1,
+     "do": [
+      "tremble"
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "bubble",
+     "x": 0.5,
+     "y": 0.3,
+     "s": 0.34,
+     "spiky": true,
+     "content": "angry",
+     "tail": [
+      -0.25,
+      0.5
+     ],
+     "appear": "miệng độc"
+    }
+   ]
+  },
+  {
+   "i": 10,
+   "start": 57.05,
+   "end": 65.15,
+   "text": "Nhưng nói thẳng ra, miệng độc thì vẫn là miệng độc, dù lòng có mềm đến đâu, cũng không che được sự thật rằng lời nói đó đã làm người khác đau.",
+   "bg": "paper",
+   "tone": "neutral",
+   "cam": {
+    "zoom": [
+     1.06,
+     1.16
+    ],
+    "from": [
+     1.06,
+     0.62,
+     0.5
+    ]
+   },
+   "items": [
+    {
+     "id": "a",
+     "x": 0.22,
+     "y": 0.8,
+     "pose": "hips",
+     "expr": "angry",
+     "face": 1
+    },
+    {
+     "id": "b",
+     "x": 0.68,
+     "y": 0.8,
+     "pose": "hand_chest",
+     "expr": "hurt",
+     "face": -0.6,
+     "crack": 0,
+     "keys": [
+      {
+       "t": "người khác đau",
+       "crack": 1,
+       "d": 0.8
+      }
+     ],
+     "do": [
+      "sob"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 11,
+   "start": 65.15,
+   "end": 72.53,
+   "text": "Những lời nói cây nhiệt giống như một cái rằm cắm vào lòng người, và nó để lại tổn thương thật sự, dù vết thương đó không nhìn thấy bằng mắt.",
+   "bg": "paper",
+   "tone": "warm",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "from": [
+     1.0,
+     0.5,
+     0.45
+    ]
+   },
+   "items": [
+    {
+     "type": "prop",
+     "name": "heart",
+     "x": 0.5,
+     "y": 0.42,
+     "s": 0.5,
+     "crack": true,
+     "broken": 0.05,
+     "beat": 1
+    },
+    {
+     "type": "prop",
+     "name": "knife",
+     "x": 0.72,
+     "y": 0.2,
+     "s": 0.4,
+     "rot": 125,
+     "keys": [
+      {
+       "t": "cắm vào",
+       "x": 0.6,
+       "y": 0.34,
+       "d": 0.3
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "x": 0.5,
+     "y": 0.86,
+     "h": 0.42,
+     "pose": "sit_knees",
+     "expr": "cry",
+     "face": 0
+    }
+   ]
+  },
+  {
+   "i": 12,
+   "start": 72.53,
+   "end": 78.19,
+   "text": "Người thân là những người gần gũi với chúng ta nhất, cũng là những người đồng hành lâu nhất trong cuộc đời chúng ta.",
+   "bg": {
+    "type": "path",
+    "horizon": 0.6,
+    "road_x": 0.55,
+    "trees": 2
+   },
+   "tone": "golden",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "fx": [
+    {
+     "name": "glow",
+     "x": 0.5,
+     "y": 0.58,
+     "r": 0.8,
+     "a": 0.5
+    }
+   ],
+   "items": [
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.12,
+     "y": 0.2,
+     "s": 0.12,
+     "rot": -12,
+     "oval": false,
+     "keys": [
+      {
+       "t": 0,
+       "y": 0.16,
+       "d": 5.6
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.3,
+     "y": 0.12,
+     "s": 0.12,
+     "rot": 8,
+     "oval": true,
+     "keys": [
+      {
+       "t": 0,
+       "y": 0.07999999999999999,
+       "d": 5.6
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.52,
+     "y": 0.16,
+     "s": 0.12,
+     "rot": -5,
+     "oval": false,
+     "keys": [
+      {
+       "t": 0,
+       "y": 0.12,
+       "d": 5.6
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.72,
+     "y": 0.1,
+     "s": 0.12,
+     "rot": 14,
+     "oval": true,
+     "keys": [
+      {
+       "t": 0,
+       "y": 0.060000000000000005,
+       "d": 5.6
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.9,
+     "y": 0.22,
+     "s": 0.12,
+     "rot": -8,
+     "oval": false,
+     "keys": [
+      {
+       "t": 0,
+       "y": 0.18,
+       "d": 5.6
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.1,
+     "y": 0.4,
+     "s": 0.12,
+     "rot": 10,
+     "oval": true,
+     "keys": [
+      {
+       "t": 0,
+       "y": 0.36000000000000004,
+       "d": 5.6
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.9,
+     "y": 0.42,
+     "s": 0.12,
+     "rot": -14,
+     "oval": true,
+     "keys": [
+      {
+       "t": 0,
+       "y": 0.38,
+       "d": 5.6
+      }
+     ]
+    },
+    {
+     "id": "old",
+     "x": 0.4,
+     "y": 0.84,
+     "pose": "cane",
+     "expr": "smile",
+     "face": 0.5,
+     "hold": "son",
+     "hold_prop": {
+      "name": "cane",
+      "arm": "L",
+      "s": 0.3
+     }
+    },
+    {
+     "id": "son",
+     "h": 0.34,
+     "x": 0.6,
+     "y": 0.86,
+     "expr": "joy",
+     "face": -0.3,
+     "hold": "old",
+     "do": [
+      "bounce"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 13,
+   "start": 78.19,
+   "end": 83.39,
+   "text": "Càng về sau, bạn càng nhận ra, nếu không có gia đình, chúng ta vốn dĩ chẳng có gì cả.",
+   "bg": {
+    "type": "path",
+    "horizon": 0.6,
+    "road_x": 0.55,
+    "trees": 2
+   },
+   "tone": "golden",
+   "cam": {
+    "zoom": [
+     1.08,
+     1.12
+    ]
+   },
+   "fx": [
+    {
+     "name": "darken",
+     "a": 0.0
+    }
+   ],
+   "items": [
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.12,
+     "y": 0.2,
+     "s": 0.12,
+     "rot": -12,
+     "oval": false,
+     "keys": [
+      {
+       "t": "không có gia đình",
+       "opacity": 0,
+       "d": 1.5
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.3,
+     "y": 0.12,
+     "s": 0.12,
+     "rot": 8,
+     "oval": true,
+     "keys": [
+      {
+       "t": "không có gia đình",
+       "opacity": 0,
+       "d": 1.5
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.52,
+     "y": 0.16,
+     "s": 0.12,
+     "rot": -5,
+     "oval": false,
+     "keys": [
+      {
+       "t": "không có gia đình",
+       "opacity": 0,
+       "d": 1.5
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.72,
+     "y": 0.1,
+     "s": 0.12,
+     "rot": 14,
+     "oval": true,
+     "keys": [
+      {
+       "t": "không có gia đình",
+       "opacity": 0,
+       "d": 1.5
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.9,
+     "y": 0.22,
+     "s": 0.12,
+     "rot": -8,
+     "oval": false,
+     "keys": [
+      {
+       "t": "không có gia đình",
+       "opacity": 0,
+       "d": 1.5
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.1,
+     "y": 0.4,
+     "s": 0.12,
+     "rot": 10,
+     "oval": true,
+     "keys": [
+      {
+       "t": "không có gia đình",
+       "opacity": 0,
+       "d": 1.5
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "frame",
+     "x": 0.9,
+     "y": 0.42,
+     "s": 0.12,
+     "rot": -14,
+     "oval": true,
+     "keys": [
+      {
+       "t": "không có gia đình",
+       "opacity": 0,
+       "d": 1.5
+      }
+     ]
+    },
+    {
+     "id": "old",
+     "x": 0.4,
+     "y": 0.84,
+     "pose": "cane",
+     "expr": "smile",
+     "face": 0.5,
+     "hold": "son",
+     "hold_prop": {
+      "name": "cane",
+      "arm": "L",
+      "s": 0.3
+     },
+     "keys": [
+      {
+       "t": "không có gia đình",
+       "dark": 1,
+       "d": 1.2
+      }
+     ]
+    },
+    {
+     "id": "son",
+     "h": 0.34,
+     "x": 0.6,
+     "y": 0.86,
+     "expr": "joy",
+     "face": -0.3,
+     "hold": "old",
+     "do": [
+      "bounce"
+     ],
+     "keys": [
+      {
+       "t": "không có gia đình",
+       "dark": 1,
+       "d": 1.2
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "i": 14,
+   "start": 83.39,
+   "end": 86.97,
+   "text": "Vậy nên, khi còn kịp, hãy trân trọng những người thân của mình.",
+   "bg": "paper",
+   "tone": "warm",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.08
+    ],
+    "from": [
+     1,
+     0.5,
+     0.6
+    ]
+   },
+   "items": [
+    {
+     "id": "a",
+     "x": 0.35,
+     "y": 0.8,
+     "pose": "kneel2",
+     "expr": "cry",
+     "face": 0.6,
+     "do": [
+      "sob"
+     ]
+    },
+    {
+     "id": "b",
+     "x": 0.66,
+     "y": 0.8,
+     "pose": "kneel",
+     "expr": "calm",
+     "face": -0.6,
+     "flip": true,
+     "reach": {
+      "arm": "L",
+      "to": "a.shoulder"
+     }
+    }
+   ]
+  },
+  {
+   "i": 15,
+   "start": 86.97,
+   "end": 90.81,
+   "text": "Dù có xảy ra mâu thuẫn, hãy cho phép đối phương được yếu đuối một lần.",
+   "bg": "paper",
+   "tone": "warm",
+   "cam": {
+    "zoom": [
+     1.1,
+     1.18
+    ],
+    "from": [
+     1.1,
+     0.5,
+     0.62
+    ]
+   },
+   "items": [
+    {
+     "id": "a",
+     "x": 0.36,
+     "y": 0.8,
+     "pose": "kneel2",
+     "expr": "sad",
+     "face": 0.6,
+     "tears": 1,
+     "keys": [
+      {
+       "t": "yếu đuối",
+       "expr": "smile"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "x": 0.64,
+     "y": 0.8,
+     "pose": "kneel",
+     "expr": "smile",
+     "face": -0.6,
+     "flip": true,
+     "reach": {
+      "arm": "L",
+      "to": [
+       0.5,
+       0.63
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 16,
+   "start": 90.81,
+   "end": 97.11,
+   "text": "Hãy thừa nhận sự không hoàn hảo của chính mình, chấp nhận sai sót của cả hai bên, thay vì chỉ trích sự ngu ngốc của người khác.",
+   "bg": {
+    "type": "room",
+    "horizon": 0.6
+   },
+   "tone": "neutral",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "from": [
+     1,
+     0.5,
+     0.62
+    ]
+   },
+   "items": [
+    {
+     "type": "prop",
+     "name": "heart",
+     "x": 0.5,
+     "y": 0.74,
+     "s": 0.44,
+     "broken": 1,
+     "keys": [
+      {
+       "t": "chấp nhận",
+       "broken": 0.15,
+       "d": 1.2
+      },
+      {
+       "t": "chấp nhận+1.2",
+       "mend": 1,
+       "d": 2.5
+      }
+     ]
+    },
+    {
+     "id": "dad",
+     "x": 0.14,
+     "y": 0.84,
+     "pose": "crouch",
+     "expr": "calm",
+     "face": 1,
+     "reach": {
+      "arm": "R",
+      "to": [
+       0.36,
+       0.72
+      ]
+     }
+    },
+    {
+     "id": "mom",
+     "x": 0.86,
+     "y": 0.84,
+     "pose": "crouch",
+     "expr": "smile",
+     "face": -1,
+     "reach": {
+      "arm": "L",
+      "to": [
+       0.64,
+       0.72
+      ]
+     }
+    },
+    {
+     "type": "prop",
+     "name": "tape",
+     "x": 0.18,
+     "y": 0.9,
+     "s": 0.07
+    }
+   ]
+  },
+  {
+   "i": 17,
+   "start": 97.11,
+   "end": 101.27,
+   "text": "Hãy cùng nhau giải quyết vấn đề, thay vì đứng ở hai phía đối lập.",
+   "bg": "floor",
+   "tone": "warm",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.06
+    ]
+   },
+   "items": [
+    {
+     "type": "prop",
+     "name": "wall",
+     "x": 0.5,
+     "y": 0.84,
+     "s": 0.55,
+     "width": 0.3,
+     "vanish": "cùng nhau+0.6"
+    },
+    {
+     "id": "dad",
+     "x": 0.16,
+     "y": 0.84,
+     "pose": "hips",
+     "expr": "angry",
+     "face": 1,
+     "do": [
+      "walk"
+     ],
+     "keys": [
+      {
+       "t": "cùng nhau+0.8",
+       "x": 0.34,
+       "d": 1.4,
+       "expr": "smile",
+       "pose": "walk"
+      },
+      {
+       "t": "cùng nhau+2.2",
+       "pose": "reach",
+       "d": 0.5
+      }
+     ]
+    },
+    {
+     "id": "mom",
+     "x": 0.84,
+     "y": 0.84,
+     "pose": "hips",
+     "expr": "angry",
+     "face": -1,
+     "do": [
+      "walk"
+     ],
+     "keys": [
+      {
+       "t": "cùng nhau+0.8",
+       "x": 0.66,
+       "d": 1.4,
+       "expr": "smile",
+       "pose": "walk"
+      },
+      {
+       "t": "cùng nhau+2.2",
+       "pose": "reach",
+       "d": 0.5
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "i": 18,
+   "start": 101.27,
+   "end": 111.07,
+   "text": "Mình từng quan sát rất nhiều gia đình, có những gia đình kinh tế không khá, nhưng mỗi khi có chuyện, vợ chồng, cha mẹ con cái cùng ngồi lại, cùng tìm cách giải quyết, không ai trách ai.",
+   "bg": "paper",
+   "tone": "warm",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "fx": [
+    {
+     "name": "rings",
+     "x": 0.5,
+     "y": 0.56,
+     "r": 0.8,
+     "a": 0.8,
+     "n": 3
+    }
+   ],
+   "items": [
+    {
+     "type": "prop",
+     "name": "house",
+     "x": 0.5,
+     "y": 0.78,
+     "s": 0.8,
+     "light": 1
+    },
+    {
+     "id": "dad",
+     "h": 0.2,
+     "x": 0.42,
+     "y": 0.77,
+     "pose": "sit",
+     "expr": "happy",
+     "face": 0.5
+    },
+    {
+     "id": "mom",
+     "h": 0.19,
+     "x": 0.6,
+     "y": 0.77,
+     "pose": "sit",
+     "flip": true,
+     "expr": "happy",
+     "face": -0.5
+    },
+    {
+     "id": "son",
+     "h": 0.13,
+     "x": 0.51,
+     "y": 0.78,
+     "expr": "joy",
+     "do": [
+      "bounce"
+     ]
+    }
+   ]
+  },
+  {
+   "i": 19,
+   "start": 111.07,
+   "end": 115.2,
+   "text": "Và những gia đình đó, qua nhiều năm, vẫn luôn ấm áp, gắn kết.",
+   "bg": "hut",
+   "tone": "golden",
+   "cam": {
+    "zoom": [
+     1.05,
+     1.12
+    ]
+   },
+   "items": [
+    {
+     "type": "prop",
+     "name": "lamp",
+     "x": 0.5,
+     "y": 0.86,
+     "s": 0.14
+    },
+    {
+     "id": "dad",
+     "x": 0.2,
+     "y": 0.86,
+     "pose": "sit_cross",
+     "expr": "happy",
+     "face": 0.5,
+     "h": 0.5
+    },
+    {
+     "id": "mom",
+     "x": 0.8,
+     "y": 0.86,
+     "pose": "sit_cross",
+     "expr": "happy",
+     "face": -0.5,
+     "h": 0.48
+    },
+    {
+     "id": "son",
+     "x": 0.36,
+     "y": 0.93,
+     "pose": "sit_cross",
+     "expr": "joy",
+     "face": 0.4,
+     "h": 0.34
+    },
+    {
+     "id": "girl",
+     "x": 0.64,
+     "y": 0.93,
+     "pose": "sit_cross",
+     "expr": "joy",
+     "face": -0.4,
+     "h": 0.32
+    }
+   ]
+  },
+  {
+   "i": 20,
+   "start": 115.2,
+   "end": 123.17,
+   "text": "Ngược lại, có những gia đình điều kiện kinh tế rất tốt, nhưng mỗi lần có chuyện là một trận đổ lỗi qua lại, và càng ngày các thành viên càng xa cách nhau.",
+   "panels": [
+    {
+     "rect": [
+      0,
+      0,
+      0.5,
+      1
+     ],
+     "bg": {
+      "type": "paper"
+     },
+     "tone": "golden",
+     "fx": [
+      {
+       "name": "rings",
+       "x": 0.5,
+       "y": 0.55,
+       "r": 0.9,
+       "a": 0.8
+      }
+     ],
+     "items": [
+      {
+       "type": "prop",
+       "name": "house",
+       "x": 0.5,
+       "y": 0.66,
+       "s": 0.95,
+       "light": 1
+      },
+      {
+       "id": "dad",
+       "h": 0.3,
+       "x": 0.38,
+       "y": 0.64,
+       "pose": "sit",
+       "expr": "happy",
+       "face": 0.5
+      },
+      {
+       "id": "mom",
+       "h": 0.28,
+       "x": 0.64,
+       "y": 0.64,
+       "pose": "sit",
+       "flip": true,
+       "expr": "happy",
+       "face": -0.5
+      }
+     ]
+    },
+    {
+     "rect": [
+      0.5,
+      0,
+      0.5,
+      1
+     ],
+     "bg": {
+      "type": "hall",
+      "horizon": 0.55
+     },
+     "tone": "cold",
+     "enter": "slide_right",
+     "items": [
+      {
+       "id": "dad",
+       "h": 0.8,
+       "x": 0.25,
+       "y": 0.72,
+       "dark": 1,
+       "expr": "sad",
+       "face": -1,
+       "do": [
+        "walk"
+       ],
+       "keys": [
+        {
+         "t": "xa cách",
+         "x": 0.12,
+         "d": 2
+        }
+       ]
+      },
+      {
+       "id": "mom",
+       "h": 0.76,
+       "x": 0.72,
+       "y": 0.72,
+       "dark": 1,
+       "expr": "sad",
+       "face": 1,
+       "do": [
+        "walk"
+       ],
+       "keys": [
+        {
+         "t": "xa cách",
+         "x": 0.86,
+         "d": 2
+        }
+       ]
+      },
+      {
+       "id": "son",
+       "h": 0.5,
+       "x": 0.5,
+       "y": 0.74,
+       "dark": 1,
+       "expr": "sad",
+       "pose": "slump"
+      }
+     ]
+    }
+   ],
+   "cam": {
+    "zoom": [
+     1.0,
+     1.04
+    ]
+   },
+   "bg": "paper"
+  },
+  {
+   "i": 21,
+   "start": 123.17,
+   "end": 128.65,
+   "text": "Hãy giảm bớt những lời nói, mang tính bạo lực trong giao tiếp, tăng thêm sự thông cảm và bao dung.",
+   "bg": "paper",
+   "tone": "neutral",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "items": [
+    {
+     "id": "a",
+     "x": 0.3,
+     "y": 0.82,
+     "pose": "angry_point",
+     "expr": "angry",
+     "face": 1,
+     "do": [
+      "talk"
+     ],
+     "keys": [
+      {
+       "t": "tăng thêm",
+       "pose": "arms_open",
+       "expr": "smile"
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "x": 0.72,
+     "y": 0.82,
+     "pose": "defend",
+     "expr": "worried",
+     "face": -1,
+     "keys": [
+      {
+       "t": "tăng thêm",
+       "pose": "stand",
+       "expr": "happy"
+      }
+     ]
+    },
+    {
+     "type": "prop",
+     "name": "bubble",
+     "x": 0.52,
+     "y": 0.28,
+     "s": 0.32,
+     "spiky": true,
+     "content": "angry",
+     "vanish": "tăng thêm"
+    },
+    {
+     "type": "prop",
+     "name": "bubble",
+     "x": 0.52,
+     "y": 0.28,
+     "s": 0.32,
+     "content": "heart",
+     "appear": "tăng thêm"
+    }
+   ]
+  },
+  {
+   "i": 22,
+   "start": 128.65,
+   "end": 132.13,
+   "text": "Giảm bớt sự tiêu hao lẫn nhau, tăng thêm sự hỗ trợ lẫn nhau.",
+   "bg": "floor",
+   "tone": "warm",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.08
+    ]
+   },
+   "items": [
+    {
+     "id": "b",
+     "x": 0.62,
+     "y": 0.84,
+     "pose": "sit",
+     "expr": "sad",
+     "face": -0.5,
+     "flip": true,
+     "reach": {
+      "arm": "L",
+      "to": [
+       0.47,
+       0.6
+      ]
+     },
+     "keys": [
+      {
+       "t": "tăng thêm",
+       "pose": "stand",
+       "expr": "happy",
+       "d": 1.0
+      }
+     ]
+    },
+    {
+     "id": "a",
+     "x": 0.3,
+     "y": 0.84,
+     "pose": "reach",
+     "expr": "smile",
+     "face": 1,
+     "reach": {
+      "arm": "R",
+      "to": [
+       0.47,
+       0.6
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "i": 23,
+   "start": 132.13,
+   "end": 137.72,
+   "text": "Khi cả nhà cùng một lòng, gia đình đó mới có thể ngày càng hương thịnh, ngày càng phát triển.",
+   "bg": {
+    "type": "field",
+    "horizon": 0.56
+   },
+   "tone": "golden",
+   "cam": {
+    "zoom": [
+     1.0,
+     1.1
+    ],
+    "from": [
+     1,
+     0.5,
+     0.55
+    ]
+   },
+   "fx": [
+    {
+     "name": "glow",
+     "x": 0.5,
+     "y": 0.5,
+     "r": 0.7,
+     "a": 0.7
+    },
+    {
+     "name": "rays",
+     "x": 0.5,
+     "y": 0.52,
+     "n": 14,
+     "len": 1.4,
+     "a": 0.4
+    }
+   ],
+   "items": [
+    {
+     "type": "prop",
+     "name": "tree",
+     "x": 0.5,
+     "y": 0.6,
+     "s": 0.78,
+     "leaves": 0.2,
+     "keys": [
+      {
+       "t": "phát triển",
+       "leaves": 1,
+       "d": 2
+      }
+     ],
+     "glow": 0.6
+    },
+    {
+     "type": "crowd",
+     "layout": "circle",
+     "cx": 0.5,
+     "cy": 0.74,
+     "rx": 0.44,
+     "ry": 0.1,
+     "n": 16,
+     "h": 0.27,
+     "hold": true,
+     "expr": "happy",
+     "exprs": [
+      "happy",
+      "joy",
+      "smile"
+     ],
+     "keys": [
+      {
+       "t": "ngày càng phát triển",
+       "pose": "cheer",
+       "do": [
+        "cheer"
+       ]
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
